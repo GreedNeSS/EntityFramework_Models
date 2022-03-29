@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using EntityField.Models;
+using MappingTablesAndColumns.Models;
 
-namespace EntityField
+namespace MappingTablesAndColumns
 {
     internal class ApplicationContext: DbContext
     {
@@ -19,14 +19,13 @@ namespace EntityField
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Data Source=People");
+            optionsBuilder.UseSqlite("Data Source=People.db");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<User>().Property("Id").HasField("id");
-            modelBuilder.Entity<User>().Property("Age").HasField("age");
-            modelBuilder.Entity<User>().Property("name");
+            //modelBuilder.Entity<User>().ToTable("Users_1");
+            //modelBuilder.Entity<User>().Property("Id").HasColumnName("Person_Id");
         }
     }
 }

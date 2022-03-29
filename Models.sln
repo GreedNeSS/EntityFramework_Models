@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MappingTablesAndColumns", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequiredProperty", "RequiredProperty\RequiredProperty.csproj", "{FA6BA82E-815D-4B75-BCAC-11A0B2CFB096}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateKeys", "CreateKeys\CreateKeys.csproj", "{4B2CF90F-7FF4-4AB5-BFC0-5767DC5D6031}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{FA6BA82E-815D-4B75-BCAC-11A0B2CFB096}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA6BA82E-815D-4B75-BCAC-11A0B2CFB096}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA6BA82E-815D-4B75-BCAC-11A0B2CFB096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B2CF90F-7FF4-4AB5-BFC0-5767DC5D6031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B2CF90F-7FF4-4AB5-BFC0-5767DC5D6031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B2CF90F-7FF4-4AB5-BFC0-5767DC5D6031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B2CF90F-7FF4-4AB5-BFC0-5767DC5D6031}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateIndex", "CreateIndex\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenerateProperties", "GenerateProperties\GenerateProperties.csproj", "{A255DAFF-C1B3-495D-ACBF-72E0A3308B6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyConstraints", "PropertyConstraints\PropertyConstraints.csproj", "{1EC84B02-ED9D-4F7C-9AAD-A87366BB5CF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropertyConstraints", "PropertyConstraints\PropertyConstraints.csproj", "{1EC84B02-ED9D-4F7C-9AAD-A87366BB5CF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelConfiguration", "ModelConfiguration\ModelConfiguration.csproj", "{4E3AFBF5-6ABB-4347-A4F0-FDDE5BC3C659}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{1EC84B02-ED9D-4F7C-9AAD-A87366BB5CF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EC84B02-ED9D-4F7C-9AAD-A87366BB5CF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EC84B02-ED9D-4F7C-9AAD-A87366BB5CF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E3AFBF5-6ABB-4347-A4F0-FDDE5BC3C659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E3AFBF5-6ABB-4347-A4F0-FDDE5BC3C659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E3AFBF5-6ABB-4347-A4F0-FDDE5BC3C659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E3AFBF5-6ABB-4347-A4F0-FDDE5BC3C659}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
